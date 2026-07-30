@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Generated outputs
+outputs/
+logs/
+
+# Trained models
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Large datasets
+data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documents/Plans
+/103v2_PLAN
