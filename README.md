@@ -29,16 +29,6 @@ CE-I-GLA builds on that foundation and targets its two main limits: iterative ph
 
 Two complementary audio paths, fused into one stream, with a learned decoder that checks how much of the image is recoverable from the audio.
 
-```mermaid
-flowchart LR
-    I["Input image"] --> S["Structural path<br/>(learned spectrogram synthesis)"]
-    I --> C["Color path<br/>(color to timbre)"]
-    S --> F["Fused audio"]
-    C --> F
-    F --> D["Audio-to-image decoder"]
-    D --> R["Reconstructed image"]
-```
-
 1. **Structural path.** An enhanced I-GLA pipeline that shapes spectral energy for human hearing and replaces iterative phase recovery with learned synthesis.
 2. **Color semantic path.** Perceptually grounded color analysis, with color regions rendered as distinct timbres and scanned across the image.
 3. **Fusion and reconstruction.** The two audio streams are combined, and a learned decoder reconstructs the image from the audio alone, a direct test of the information the sound carries.
