@@ -1,0 +1,7 @@
+{
+  "pairs": 360,
+  "epochs": 30,
+  "minutes": 3.203868845,
+  "loss": "self-supervised STFT consistency: spectral convergence + log-magnitude L1",
+  "input": "magnitude (558 in-band bins x 128 frames, N_FFT=4096) -> phase"
+}

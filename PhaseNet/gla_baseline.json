@@ -1,0 +1,14 @@
+{
+  "n_test": 40,
+  "n_iter": 32,
+  "N_FFT": 4096,
+  "HOP": 2048,
+  "cpu_librosa": {
+    "spectral_convergence": 0.038423371594399215,
+    "s_per_sample": 0.5317513675000001
+  },
+  "gpu_torch": {
+    "spectral_convergence": 0.03861639527603984,
+    "s_per_sample": 0.02538966999999932
+  }
+}

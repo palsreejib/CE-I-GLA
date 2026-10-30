@@ -1,0 +1,18 @@
+{
+  "params_M": 7.765442,
+  "GMACs": 13.19886848,
+  "GFLOPs_2xMACs": 26.39773696,
+  "fp32": {
+    "latency_ms": 5.26495300000004,
+    "latency_e2e_ms": 5.126046999999971,
+    "peak_mem_MB": 87.59326171875,
+    "spectral_convergence": 0.06587268700823187
+  },
+  "fp16": {
+    "latency_ms": 4.847774000000201,
+    "latency_e2e_ms": 6.193873000000103,
+    "peak_mem_MB": 83.64208984375,
+    "spectral_convergence": 0.06587673975154758
+  },
+  "fp16_sc_delta": 4.052743315705043e-06
+}
